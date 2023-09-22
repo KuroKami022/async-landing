@@ -4,12 +4,15 @@
   "description": "project for JS school",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-page -d src"
+    "deploy": "gh-pages -d src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
